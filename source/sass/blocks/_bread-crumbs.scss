@@ -1,0 +1,7 @@
+.bread-crumbs {
+  display: none;
+  
+  &__list {
+    @include list-reset;
+  }
+}
