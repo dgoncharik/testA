@@ -1,4 +1,6 @@
 .news-block {
+  text-align: center;
+  
   &__part {
     padding-top: 12px;
     display: flex;
@@ -7,6 +9,7 @@
     margin-left: -5px;
     margin-right: -5px;
     position: relative;
+    margin-bottom: 20px;
 
     &::after {
       content: "";
@@ -27,5 +30,9 @@
     margin-bottom: 32px;
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  &__btn {
+
   }
 }

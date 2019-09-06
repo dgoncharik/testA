@@ -1,0 +1,23 @@
+.btn {
+  width: 290px;
+  padding: 15px;
+  display: inline-block;
+  font-weight: normal;
+  color: inherit;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #DADEE2;
+  border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    border-color: #8e9296;
+  }
+
+  &:active {
+    border-color: black;
+    color: black;
+  }
+}
