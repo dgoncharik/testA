@@ -1,0 +1,31 @@
+.news-block {
+  &__part {
+    padding-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -5px;
+    margin-right: -5px;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: calc(100% - 10px);
+      height: 1px;
+      background-color: #E8ECEF;
+      position: absolute;
+      left: 5px;
+      bottom: 2px;
+    }
+
+    &--2 {
+      display: none;
+    }
+  }
+
+  &__item {
+    margin-bottom: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
